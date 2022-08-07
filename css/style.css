@@ -1,0 +1,227 @@
+body {
+  font-family: 'Alegreya', serif;
+}
+
+#home {
+  background-image: url(../image/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+nav img {
+  width: 170px;
+}
+
+nav ul li a {
+  color: white !important;
+  font-size: 20px;
+}
+
+.colorBlack {
+  color:  black !important;
+}
+
+nav ul li a:hover {
+  color: #e0c690 !important;
+}
+
+.navbar-toggler {
+  font-size: 25px;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+
+header h3 , .btn-1 , .btn-2{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+header h1 {
+  font-size: 76px;
+}
+
+.text {
+  font-size: 24px;
+}
+
+#home .btn-1 {
+  background-color: #8E7754;
+  border: none;
+}
+
+#home .btn-2 {
+  background-color: transparent;
+  border: solid white 2px;
+}
+
+#home .btn-1:hover ,#home .btn-2:hover  {
+  background-color: white;
+  color: black !important;
+}
+
+/* section About */
+#about .text2 {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.icons i {
+  color: #8E7754;
+  font-size: 20px;
+  border: 1px solid rgb(189, 183, 183);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* section gallery  */
+.content {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+
+/* section blog */
+.iconsTwo i {
+  background-color: #8E7754;
+  color: white;
+  font-size: 20px;
+  border: 1px solid rgb(189, 183, 183);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* section contact */
+#contact {
+  background-color: #403d38;
+}
+
+.content2 {
+  color: #969696;
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.border1 {
+  height: 1px;
+  width: 250px;
+  background-color: rgb(77, 75, 75);
+}
+
+.picture {
+  position: relative;
+}
+
+#contact .mapPic {
+  background-image: url(../image/contact-details-map.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 300px;
+  height: 250px;
+  opacity: 0.155;
+}
+
+/* footer */
+footer {
+  background-color: #353330;
+}
+
+.icon3 
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon3:hover {
+  background-color: white;
+}
+
+.icon3:hover i {
+  color: #8E7754;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
+/* -----------------------media Query-------------------- */
+@media screen and (max-width:568px)
+{
+.navbar-brand img {
+  width: 100px;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+header .text {
+  font-size: 18px;
+  padding: 0 10px;
+}
+  .map iframe {
+    width: 100%;
+    height: 400;
+  }
+  #contact .mapPic {
+    width: 250px;
+  }
+
+  footer img {
+    width: 200px;
+  }
+
+  #contact .item {
+    margin: 10px !important;
+  }
+
+  #contact .item {
+    padding: 10px !important;
+  }
+}
+
+@media screen and (min-width:569px) and (max-width:768px)
+{
+  .map iframe {
+    width: 100%;
+    height: 400;
+  }
+  #contact .mapPic {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:992px)
+{
+  .map iframe {
+    width: 100%;
+    height: 400;
+  }
+  #contact .item {
+    margin: 0 !important;
+  }
+  #contact .mapPic {
+    width: 200px;
+  }
+}
+
+
+
